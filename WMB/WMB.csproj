@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E163883-2727-4EB4-8B12-5B6BB4627BAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WMB</RootNamespace>
+    <AssemblyName>WMB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DBDataSet.xsc">
+      <DependentUpon>DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBDataSet.xss">
+      <DependentUpon>DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muhomor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\малина.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Вороний глаз11.png" />
+    <None Include="Resources\Бузина11.png" />
+    <None Include="Resources\Клубника11.png" />
+    <None Include="Resources\Белена11.png" />
+    <None Include="Resources\Девичий виноград.png" />
+    <None Include="Resources\Голубика.png" />
+    <None Include="Resources\Вороний глаз.png" />
+    <None Include="Resources\Воронец.png" />
+    <None Include="Resources\Волчеягодник.png" />
+    <None Include="Resources\Бузина.png" />
+    <None Include="Resources\Брусника.png" />
+    <None Include="Resources\Белена.png" />
+    <None Include="Resources\Черника.png" />
+    <None Include="Resources\Рябина.png" />
+    <None Include="Resources\Паслен.png" />
+    <None Include="Resources\Облепиха.png" />
+    <None Include="Resources\Малина.png" />
+    <None Include="Resources\Ландыш.png" />
+    <None Include="Resources\Крыжовник.png" />
+    <None Include="Resources\Красная Смородина.png" />
+    <None Include="Resources\Клюква.png" />
+    <None Include="Resources\Клубника.png" />
+    <None Include="Resources\Ирга.png" />
+    <None Include="Resources\Земляника.png" />
+    <None Include="Resources\Девичий виноград11.png" />
+    <None Include="Resources\Голубика11.png" />
+    <None Include="Resources\Воронец11.png" />
+    <None Include="Resources\Волчеягодник11.png" />
+    <None Include="Resources\Брусника11.png" />
+    <None Include="Resources\Черника11.png" />
+    <None Include="Resources\Рябина11.png" />
+    <None Include="Resources\Паслен11.png" />
+    <None Include="Resources\Облепиха11.png" />
+    <None Include="Resources\Малина11.png" />
+    <None Include="Resources\Ландыш11.png" />
+    <None Include="Resources\Крыжовник11.png" />
+    <None Include="Resources\Красная Смородина11.png" />
+    <None Include="Resources\Клюква11.png" />
+    <None Include="Resources\Ирга11.png" />
+    <None Include="Resources\Земляника11.png" />
+    <None Include="Resources\фонягоддн1.png" />
+    <None Include="Resources\Грибкнопка.png" />
+    <None Include="Resources\фонягоддн.png" />
+    <None Include="Resources\фонягод.png" />
+    <None Include="Resources\фонГрибов.png" />
+    <None Include="Resources\Энтолома серая11.png" />
+    <None Include="Resources\Сыроежка11.png" />
+    <None Include="Resources\Рыжик11.png" />
+    <None Include="Resources\Подосиновик11.png" />
+    <None Include="Resources\Подберезовик11.png" />
+    <None Include="Resources\Опята11.png" />
+    <None Include="Resources\Моховик ядовитый11.png" />
+    <None Include="Resources\Маслята11.png" />
+    <None Include="Resources\Лисичка11.png" />
+    <None Include="Resources\Лисичка ложная11.png" />
+    <None Include="Resources\Лазурный гриб11.png" />
+    <None Include="Resources\Красноголовик11.png" />
+    <None Include="Resources\Жёлчный гриб11.png" />
+    <None Include="Resources\Галерина желтая11.png" />
+    <None Include="Resources\Волнистый мухаиор11.png" />
+    <None Include="Resources\Бледная поганка11.png" />
+    <None Include="Resources\Белый гриб11.png" />
+    <None Include="Resources\мухомор22.png" />
+    <None Include="Resources\Энтолома серая22.png" />
+    <None Include="Resources\Сыроежка22.png" />
+    <None Include="Resources\Рыжик22.png" />
+    <None Include="Resources\Подосиновик22.png" />
+    <None Include="Resources\Подберезовик22.png" />
+    <None Include="Resources\Опята22.png" />
+    <None Include="Resources\Моховик ядовитый22.png" />
+    <None Include="Resources\Маслята22.png" />
+    <None Include="Resources\Лисичка22.png" />
+    <None Include="Resources\Лисичка ложная22.png" />
+    <None Include="Resources\Лазурный гриб22.png" />
+    <None Include="Resources\Красноголовик22.png" />
+    <None Include="Resources\Жёлчный гриб22.png" />
+    <None Include="Resources\Груздь22.png" />
+    <None Include="Resources\Галерина желтая22.png" />
+    <None Include="Resources\Волнистый мухомор22.png" />
+    <None Include="Resources\Боровик22.png" />
+    <None Include="Resources\Бледная поганка22.png" />
+    <None Include="Resources\Белый гриб22.png" />
+    <None Include="Resources\Груздь11.png" />
+    <None Include="Resources\Боровик11.png" />
+    <None Include="Resources\фон2.PNG" />
+    <None Include="Resources\мухомор11.png" />
+    <None Include="Resources\фон1.PNG" />
+    <None Include="Resources\фон.PNG" />
+    <None Include="Resources\книга.png" />
+    <None Include="Resources\ф2он1.jpg" />
+    <None Include="Resources\pngwing.com %283%29.png" />
+    <None Include="Resources\pngwing.com %289%29.png" />
+    <None Include="Resources\pngwing.com %288%29.png" />
+    <None Include="Resources\pngwing.com %287%29.png" />
+    <None Include="Resources\pngwing.com %286%29.png" />
+    <None Include="Resources\pngwing.com %2810%29.png" />
+    <None Include="Resources\pngwing.com %284%29.png" />
+    <None Include="Resources\pngwing.com %282%29.png" />
+    <None Include="Resources\pngwing.com.png" />
+    <None Include="Resources\1636006592_34-papik-pro-p-grib-vektornii-risunok-35.jpg" />
+    <None Include="Resources\61d7b2140348d1e2baa5bb153c73e942.jpg" />
+    <None Include="Resources\button.png" />
+    <Content Include="Resources\Image1.jpg" />
+    <None Include="Resources\pngwing.com %281%29.png" />
+    <None Include="Resources\Груздь1.jpg" />
+    <None Include="Resources\Моховик ядовитый.jpeg" />
+    <None Include="Resources\Галерина желтая.jpeg" />
+    <None Include="Resources\Лазурный гриб.jpg" />
+    <None Include="Resources\Жёлчный гриб.jpg" />
+    <None Include="Resources\Лисичка ложная.jpg" />
+    <None Include="Resources\Моховик ядовитый.png" />
+    <None Include="Resources\Энтолома серая.jpg" />
+    <None Include="Resources\Белый гриб.jpg" />
+    <None Include="Resources\Боровик.jpg" />
+    <None Include="Resources\Груздь.jpg" />
+    <None Include="Resources\Красноголовик.png" />
+    <None Include="Resources\Лисичка.jpg" />
+    <None Include="Resources\Маслята.jpg" />
+    <None Include="Resources\Опята.jpg" />
+    <None Include="Resources\Подберезовик.jpg" />
+    <None Include="Resources\Подосиновик.jpg" />
+    <None Include="Resources\Рыжик.jpg" />
+    <None Include="Resources\Сыроежка.jpg" />
+    <None Include="Resources\Бледная поганка.jpeg" />
+    <None Include="Resources\Волнистый мухомор.jpg" />
+    <None Include="Resources\Паслен.jpg" />
+    <None Include="Resources\Облепиха.jpg" />
+    <None Include="Resources\Ландыш.jpg" />
+    <None Include="Resources\Крыжовник.jpg" />
+    <None Include="Resources\Красная Смородина.jpg" />
+    <None Include="Resources\Клюква.jpg" />
+    <None Include="Resources\Ирга.jpg" />
+    <None Include="Resources\Земляника.jpg" />
+    <None Include="Resources\Девичий виноград.jpg" />
+    <None Include="Resources\Голубика.jpg" />
+    <None Include="Resources\Вороний глаз.jpg" />
+    <None Include="Resources\Воронец.jpg" />
+    <None Include="Resources\Волчеягодник.jpg" />
+    <None Include="Resources\Бузина.jpg" />
+    <None Include="Resources\Брусника.jpg" />
+    <None Include="Resources\Белена.jpg" />
+    <None Include="Resources\Клубника.jpeg" />
+    <None Include="Resources\Вороний глаз.jpe" />
+    <None Include="Resources\Рябина.jpg" />
+    <None Include="Resources\Черника.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

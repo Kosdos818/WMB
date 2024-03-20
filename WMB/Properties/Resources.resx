@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="1г" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1я" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2г" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2я" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3г" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Белена" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Белена.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Белена1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Белена.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Белена11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Белена11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Белый гриб" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Белый гриб.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Белый гриб11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Белый гриб11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Белый гриб22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Белый гриб22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Бледная поганка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Бледная поганка.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Бледная поганка11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Бледная поганка11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Бледная поганка22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Бледная поганка22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Боровик" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Боровик.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Боровик11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Боровик11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Боровик22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Боровик22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Брусника" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Брусника.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Брусника1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Брусника.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Брусника11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Брусника11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Бузина" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Бузина.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Бузина1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Бузина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Бузина11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Бузина11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Волнистый мухомор" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Волнистый мухомор.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Волнистый мухомор11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Волнистый мухаиор11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Волнистый мухомор22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Волнистый мухомор22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Волчеягодник" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Волчеягодник.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Волчеягодник1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Волчеягодник.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Волчеягодник11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Волчеягодник11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Воронец" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Воронец.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Воронец1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Воронец.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Воронец11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Воронец11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Вороний глаз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Вороний глаз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Вороний глаз1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Вороний глаз.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Вороний глаз11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Вороний глаз11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Вороний_глаз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Вороний глаз.jpe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Галерина желтая" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Галерина желтая.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Галерина желтая11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Галерина желтая11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Галерина желтая22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Галерина желтая22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Голубика" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Голубика.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Голубика1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Голубика.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Голубика11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Голубика11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Грибкнопка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Грибкнопка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Груздь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Груздь.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Груздь11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Груздь11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Груздь22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Груздь22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Девичий виноград" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Девичий виноград.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Девичий виноград1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Девичий виноград.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Девичий виноград11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Девичий виноград11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Жёлчный гриб" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Жёлчный гриб.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Жёлчный гриб11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Жёлчный гриб11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Жёлчный гриб22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Жёлчный гриб22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Земляника" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Земляника.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Земляника1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Земляника.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Земляника11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Земляника11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ирга" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ирга.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ирга1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ирга.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ирга11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ирга11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Клубника" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Клубника.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Клубника1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Клубника.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Клубника11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Клубника11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Клюква" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Клюква.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Клюква1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Клюква.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Клюква11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Клюква11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="книга" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\книга.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Красная Смородина" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Красная Смородина.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Красная Смородина1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Красная Смородина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Красная Смородина11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Красная Смородина11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Красноголовик" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Красноголовик.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Красноголовик11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Красноголовик11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Красноголовик22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Красноголовик22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Крыжовник" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Крыжовник.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Крыжовник1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Крыжовник.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Крыжовник11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Крыжовник11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лазурный гриб" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лазурный гриб.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лазурный гриб11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лазурный гриб11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лазурный гриб22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лазурный гриб22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ландыш" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ландыш.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ландыш1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ландыш.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ландыш11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ландыш11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лисичка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лисичка.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лисичка ложная" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лисичка ложная.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лисичка ложная11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лисичка ложная11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лисичка ложная22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лисичка ложная22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лисичка11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лисичка11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Лисичка22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Лисичка22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Малина" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\малина.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Малина1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Малина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Малина11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Малина11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Маслята" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Маслята.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Маслята11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Маслята11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Маслята22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Маслята22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Моховик ядовитый" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Моховик ядовитый.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Моховик ядовитый11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Моховик ядовитый11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Моховик ядовитый22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Моховик ядовитый22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Мухомор" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Мухомор1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muhomor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Мухомор11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\мухомор11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Мухомор22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\мухомор22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Облепиха" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Облепиха.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Облепиха1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Облепиха.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Облепиха11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Облепиха11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Опята" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Опята.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Опята11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Опята11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Опята22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Опята22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Паслен" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Паслен.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Паслен1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Паслен.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Паслен11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Паслен11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Подберезовик" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Подберезовик.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Подберезовик11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Подберезовик11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Подберезовик22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Подберезовик22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Подосиновик" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Подосиновик.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Подосиновик11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Подосиновик11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Подосиновик22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Подосиновик22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Рыжик" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Рыжик.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Рыжик11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Рыжик11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Рыжик22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Рыжик22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Рябина" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Рябина.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Рябина1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Рябина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Рябина11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Рябина11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Сыроежка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Сыроежка.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Сыроежка11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Сыроежка11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Сыроежка22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Сыроежка22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ф2он1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ф2он1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фон2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фон2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ФонГлМен" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61d7b2140348d1e2baa5bb153c73e942.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фонГрибов" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фонГрибов.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фонягод" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фонягод.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фонягоддн" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фонягоддн.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фонягоддн1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фонягоддн1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Черника" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Черника.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Черника1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Черника.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Черника11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Черника11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Энтолома серая" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Энтолома серая.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Энтолома серая11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Энтолома серая11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Энтолома серая22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Энтолома серая22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
